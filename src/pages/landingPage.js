@@ -8,9 +8,9 @@ const LandingPage = () => {
   return (
     <div>
       <MainLanding />
-      <LandingTransition color="rgba(99, 102, 241, 1)" background="trueGray-900"/>
+      <LandingTransition color="rgba(99, 102, 241, 1)" background="bg-trueGray-900"/>
       <LandingContent />
-      <LandingTransition color="rgba(23, 23, 23, 1)" background="indigo-700" />
+      <LandingTransition color="rgba(23, 23, 23, 1)" background="bg-indigo-700" />
       <Footer />
     </div>
   );

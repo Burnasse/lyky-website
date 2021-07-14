@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const LandingTransition = ({color, background}) => {
   return (
-    <div className={`relative -mt-5 lg:-mt-5 bg-${background}`}>
+    <div className={`relative -mt-5 lg:-mt-5 ${background}`}>
         <svg
           viewBox="0 0 1428 174"
           version="1.1"
