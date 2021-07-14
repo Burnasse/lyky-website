@@ -1,6 +1,5 @@
 import { motion, useCycle } from "framer-motion";
 import * as React from "react";
-import logo from "./LogoLYKY.svg"
 
 const sideBar = () => (
   <motion.div
@@ -39,9 +38,7 @@ const Navbar = () => {
               className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
               href="/"
             >
-              
-              <object className="absolute w-20 h-20" type="image/svg+xml" data={logo}>svg-logo</object>
-              <div className="absolute">LYKY</div>
+              <div>LYKY</div>
             </a>
           </div>
           <div className="block lg:hidden pr-4">

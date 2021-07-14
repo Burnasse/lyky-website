@@ -21,7 +21,7 @@ const MainLanding = () => {
         </div>
         <div className="w-full md:w-3/5 py-6 text-center">
           <div className=" py-4 px-4">
-            <div class="w-full z-50">
+            <div className="w-full z-50">
               <LandingAnimation />
             </div>
           </div>
